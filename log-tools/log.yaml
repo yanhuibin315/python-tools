@@ -1,0 +1,6 @@
+config:
+  file: "log.log"
+  fmt: "%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s"
+  level: "info"
+  segment: "D"
+  max_counts: 15
